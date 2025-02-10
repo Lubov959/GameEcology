@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="B1"
+        android:text="Показать Toast быстро"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:backgroundTint="#FF5722"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="B2"
+        android:text="Показать Toast медленно"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:backgroundTint="#FF9800"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="B3"
+        android:text="Показать Toast с картинкой"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:backgroundTint="#9C27B0"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="B4"
+        android:text="Показать Toast собственный"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:backgroundTint="#8BC34A"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="B5"
+        android:text="Toast собственный другой"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:backgroundTint="#009688"
+        android:textColor="@color/white"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Input Mess1"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:background="#8AC7F8"/>
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Input Mess2"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:background="#5FB2F4"/>
+
+</LinearLayout>
+
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="B6"
+        android:text="Toast из EditText"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:backgroundTint="#3F51B5"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

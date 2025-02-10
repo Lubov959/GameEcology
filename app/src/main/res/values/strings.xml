@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">5LabaVerigina</string>
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="del">Del</string>
+    <string name="clear">Clear</string>
+</resources>
