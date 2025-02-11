@@ -13,7 +13,7 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
-
+    <color name="background_color">#FFFFFF</color> <!-- Белый для светлой темы -->
 
     <style name="MyButton">
         <item name="android:textSize">@dimen/textSize</item>

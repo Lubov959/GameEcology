@@ -1,7 +1,19 @@
 <resources>
-    <string name="app_name">5LabaVerigina</string>
+    <string name="app_name">GameEcology</string>
     <string name="add">Add</string>
     <string name="edit">Edit</string>
     <string name="del">Del</string>
     <string name="clear">Clear</string>
+    <string name="name_b_auth">Войти</string>
+    <string name="hint_et_login">Введите логин</string>
+    <string name="hint_et_password">Введите пароль</string>
+    <string name="name_preferences">Preferences</string>
+    <string name="key_login">login</string>
+    <string name="key_password">pass</string>
+    <string name="name_b_quiz1">Квиз 1</string>
+    <string name="name_b_quiz2">Квиз 2</string>
+    <string name="name_b_quiz3">Квиз 3</string>
+    <string name="name_b_quiz4">Квиз 4</string>
+    <string name="name_b_iquiz5">Интерактивный квиз</string>
+    <string name="name_b_sorting6">Сортировка отходов</string>
 </resources>

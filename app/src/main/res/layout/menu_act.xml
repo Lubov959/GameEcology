@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/background_color"
+    android:padding="16dp">
+
+    <!-- Первая кнопка -->
+    <Button
+        android:id="@+id/quiz1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Q1"
+        android:text="@string/name_b_quiz1"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:backgroundTint="#FF5722"
+        android:textColor="@color/white"
+        android:layout_marginBottom="8dp"
+        tools:ignore="Suspicious0dp" />
+
+    <!-- Вторая кнопка -->
+    <Button
+        android:id="@+id/quiz2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Q2"
+        android:text="@string/name_b_quiz2"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:backgroundTint="#FF9800"
+        android:layout_marginBottom="8dp"
+        tools:ignore="Suspicious0dp" />
+
+    <!-- Третья кнопка -->
+    <Button
+        android:id="@+id/quiz3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Q3"
+        android:text="@string/name_b_quiz3"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:backgroundTint="#9C27B0"
+        android:textColor="@color/white"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Четвертая кнопка -->
+    <Button
+        android:id="@+id/quiz4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Q4"
+        android:text="@string/name_b_quiz4"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:backgroundTint="#8BC34A"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Пятая кнопка -->
+    <Button
+        android:id="@+id/interactiveQuiz5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="IQ5"
+        android:text="@string/name_b_iquiz5"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:backgroundTint="#009688"
+        android:textColor="@color/white"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Шестая кнопка -->
+    <Button
+        android:id="@+id/sorting6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Sorting6"
+        android:text="@string/name_b_sorting6"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:backgroundTint="#3F51B5"
+        android:textColor="@color/white"
+        android:layout_marginBottom="8dp" />
+
+</LinearLayout>
