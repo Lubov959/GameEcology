@@ -1,5 +1,6 @@
 package com.example.gameecology;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -91,8 +92,6 @@ public class Auth extends Activity {
         super.onPause();
         SharedPreferences.Editor editor = preferences.edit(); //с помощью метода edit объекта-активности
         //получаем объект-редактор editor
-        Log.d("AuthActivity", "xnj "+etLogin.getText().toString());
-
         editor.putString(getString(R.string.key_login), etLogin.getText().toString()); //с помощью редактора помещаем в настройку элемент
         editor.putString(getString(R.string.key_password), etPassword.getText().toString());
         editor.apply();

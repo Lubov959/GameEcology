@@ -23,7 +23,7 @@ public class Menu extends Activity {
     }
 
     public void Q1(View v){
-        Intent intent=new Intent(this, Menu.class);
+        Intent intent=new Intent(this, Quiz.class);
         startActivity(intent);
     }
     public void Q2(View v){
